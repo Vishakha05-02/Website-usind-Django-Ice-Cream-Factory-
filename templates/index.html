@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<div class="container-fluid px-0 my-4">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1600x600/?icecream,water" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?icecream,boy" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?icecream,girl" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="container" my-4>
+ <h2 class="text-center">Choose Your Favourite Flavours From Here</h2>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1200x900/?vanilla icecream" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Vanilla Icecream</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Rs.150</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/? chocolate icecream" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Chocolate Icecream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Rs.150</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/? casata icecream" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">Casata Icecream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Rs.150</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?fruit icecream" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">Fruit Icecream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Rs.150</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?kulfi icecream" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">Kulfi Icecream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Rs.150</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+{% endblock body %}
